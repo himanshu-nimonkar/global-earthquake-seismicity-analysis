@@ -26,7 +26,7 @@ After cleaning and validation, the final dataset contains:
 
 All data preprocessing is performed directly inside the notebook.
 
-Dataset Citation
+### Dataset Citation
 If you use this dataset, please cite it as:
 BwandoWando. Earthquakes around the world from 1900–2025. Kaggle, 2025. Available online: https://www.kaggle.com/datasets/bwandowando/earthquakes-around-the-world-from-1900-2025
 
