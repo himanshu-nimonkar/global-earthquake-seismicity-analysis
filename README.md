@@ -26,6 +26,10 @@ After cleaning and validation, the final dataset contains:
 
 All data preprocessing is performed directly inside the notebook.
 
+###Dataset Citation
+If you use this dataset, please cite it as:
+BwandoWando. Earthquakes around the world from 1900–2025. Kaggle, 2025. Available online: https://www.kaggle.com/datasets/bwandowando/earthquakes-around-the-world-from-1900-2025
+
 ## Methodology
 The workflow follows the pipeline illustrated in the flowchart above and includes:
 
@@ -67,8 +71,9 @@ The workflow follows the pipeline illustrated in the flowchart above and include
 Magnitude-dependent ETAS-like models yield physically realistic results, while magnitude-agnostic Hawkes models substantially overestimate triggering at the global scale.
 
 ## How to Run
+Download the dataset manually from Kaggle using the link above.
+Place the downloaded CSV file in the project directory or update the path inside the notebook.
 Open the notebook `stat.ipynb` in Jupyter and **run all cells from top to bottom**.
-
 All preprocessing, modeling, plots, and results are generated entirely within the notebook.
 
 ## Reproducibility
